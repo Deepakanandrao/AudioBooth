@@ -15,7 +15,7 @@ struct EbookPlayerSheet: View {
 
       BookPlayerPlaybackSection(model: player)
     }
-    .padding(.top, 50)
+    .padding(.vertical, 50)
     .padding(.horizontal, 24)
     .preferredColorScheme(.dark)
     .presentationDragIndicator(.visible)
